@@ -46,6 +46,9 @@ INSERT INTO Doctors (Name, Specialty, Image)
 VALUES 
 (N'Nguyễn Văn A', N'Tim mạch', ''),
 (N'Trần Thị B', N'Nhi khoa', '');
+(N'Đặng Văn C', N'Tiêu hóa', '');
+(N'Phan Thiết', N'Nội tổng quát', '');
+(N'Dr.D', N'các vấn đề về sức khỏe', '');
 
 INSERT INTO Users (Username, Password, Role)
 VALUES 

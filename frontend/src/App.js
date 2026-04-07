@@ -1,31 +1,47 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Navbar from "./Navbar";
+import Home from "./Home";
 import Login from "./Login";
+import Register from "./Register";
 import Appointment from "./Appointment";
-import Admin from "./Admin";
+
+import AdminLayout from "./AdminLayout";
+import AdminDashboard from "./AdminDashboard";
+import ManageAppointments from "./ManageAppointments";
+import PrivateRoute from "./PrivateRoute";
 
 function App() {
-  const user = JSON.parse(localStorage.getItem("user") || "null");
-
   return (
-    <div className="container mt-4">
-      <h1 className="text-center text-primary mb-4">
-        🏥 Clinic Appointment System
-      </h1>
+    <BrowserRouter>
 
-      <div className="row">
-        <div className="col-md-6">
-          <Login />
-        </div>
+      <Navbar />
 
-        <div className="col-md-6">
-          <Appointment />
-        </div>
-      </div>
-      {user?.role === "Admin" && <Admin />}
-    </div>
-    
+      <Routes>
+
+        {/* USER */}
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/appointment" element={<Appointment />} />
+
+        {/* ADMIN */}
+        <Route
+          path="/admin"
+          element={
+            <PrivateRoute>
+              <AdminLayout />
+            </PrivateRoute>
+          }
+        >
+          <Route index element={<AdminDashboard />} />
+          <Route path="appointments" element={<ManageAppointments />} />
+        </Route>
+
+      </Routes>
+
+    </BrowserRouter>
   );
 }
 
 export default App;
-

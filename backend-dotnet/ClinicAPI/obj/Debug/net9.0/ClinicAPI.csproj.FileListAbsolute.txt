@@ -151,3 +151,4 @@ C:\Users\MY PC\ClinicAppointmentSystem\backend-dotnet\ClinicAPI\obj\Debug\net9.0
 C:\Users\MY PC\ClinicAppointmentSystem\backend-dotnet\ClinicAPI\obj\Debug\net9.0\ClinicAPI.pdb
 C:\Users\MY PC\ClinicAppointmentSystem\backend-dotnet\ClinicAPI\obj\Debug\net9.0\ClinicAPI.genruntimeconfig.cache
 C:\Users\MY PC\ClinicAppointmentSystem\backend-dotnet\ClinicAPI\obj\Debug\net9.0\ref\ClinicAPI.dll
+C:\Users\MY PC\ClinicAppointmentSystem\backend-dotnet\ClinicAPI\obj\Debug\net9.0\ClinicAPI.sourcelink.json
