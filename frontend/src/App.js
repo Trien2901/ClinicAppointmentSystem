@@ -5,14 +5,16 @@ import Home from "./Home";
 import Login from "./Login";
 import Register from "./Register";
 import Appointment from "./Appointment";
-
 import AdminLayout from "./AdminLayout";
 import AdminDashboard from "./AdminDashboard";
 import ManageAppointments from "./ManageAppointments";
 import PrivateRoute from "./PrivateRoute";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
+    
     <BrowserRouter>
 
       <Navbar />
