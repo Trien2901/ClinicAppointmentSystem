@@ -1,13 +1,12 @@
 import React from "react";
-import Header from "./components/Header";
-import HomeUI from "./components/HomeUI";
-import Footer from "./components/Footer";
-
+import Header from "./Components/Header";
+import INDEX from "./Components/INDEX";
+import Footer from "./Components/Footer";
 function Home() {
   return (
     <>
       <Header />
-      <HomeUI />
+      <INDEX />
       <Footer />
     </>
   );

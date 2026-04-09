@@ -9,7 +9,7 @@ function Header() {
                 <div className="header-brand">
                     <a href="/" className="logo hv-o">
                         <img
-                            src="http://localhost/wordpress/wp-content/uploads/2026/03/logo.svg"
+                            src="(../img/logo.svg)"
                             alt="sanuki"
                             loading="lazy"
                         />

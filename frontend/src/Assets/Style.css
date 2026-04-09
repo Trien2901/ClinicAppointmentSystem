@@ -325,7 +325,7 @@ li#menu-item-17 {
     height: 0.40625rem;
     left: -1.25rem;
     top: 50%;
-    background: url(assets/img/icon-menu.svg) no-repeat center / contain;
+    background: url(./img/icon-menu.svg) no-repeat center / contain;
 }
 
 .header-nav .nav-list>li>a:hover {
@@ -382,7 +382,7 @@ li#menu-item-17 {
     height: 1.5625rem;
     margin: 0 0 0 -1.25rem;
     clip-path: inherit;
-    mask: url(assets/img/icon_arrow-02.svg) center / 100% no-repeat;
+    mask: url(./img/icon_arrow-02.svg) center / 100% no-repeat;
 }
 
 .sub-menu li a:hover {
@@ -784,8 +784,8 @@ ul.fixed-side-menu {
     /* 25px */
     height: 1.375rem;
     /* 22px */
-    -webkit-mask: url(http://localhost/wordpress/wp-content/uploads/2026/03/footer_icon-calendar.svg) center / 100% no-repeat;
-    mask: url(http://localhost/wordpress/wp-content/uploads/2026/03/footer_icon-calendar.svg) center / 100% no-repeat;
+    -webkit-mask: url(./img/footer_icon-calendar.svg) center / 100% no-repeat;
+    mask: url(./img/footer_icon-calendar.svg) center / 100% no-repeat;
 }
 
 .fixed-side-menu li a.access-link::before {
@@ -795,7 +795,7 @@ ul.fixed-side-menu {
     /* 15px */
     height: 1.25rem;
     /* 20px */
-    background: url(http://localhost/wordpress/wp-content/uploads/2026/03/footer_icon-access.png) center / 100% no-repeat;
+    background: url(./img/footer_icon-access.png) center / 100% no-repeat;
 }
 
 .fixed-side-menu li a.access-link {
@@ -871,7 +871,7 @@ a.banner-link {
     right: 0.5rem;
     border-radius: 0.5rem;
     /* 8px */
-    background: url(http://localhost/wordpress/wp-content/uploads/2026/03/banner-recruit.jpg) no-repeat center;
+    background: url(./img/banner-recruit.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -1423,7 +1423,7 @@ span.banner-text {
     position: absolute;
     width: 0.625rem;
     height: 0.3125rem;
-    background: url(assets/img/mui-ten.svg) no-repeat center / contain;
+    background: url(./img/mui-ten.svg) no-repeat center / contain;
     transform: translateY(-50%);
     left: 0.5rem;
     top: 0.8125rem;
@@ -1519,8 +1519,8 @@ span.banner-text {
     height: 0.375rem;
     /* 6px */
     background-color: #0764AB;
-    mask: url(assets/img/mui-ten.svg) no-repeat center / contain;
-    -webkit-mask: url(assets/img/mui-ten.svg) no-repeat center / contain;
+    mask: url(./img/mui-ten.svg) no-repeat center / contain;
+    -webkit-mask: url(./img/mui-ten.svg) no-repeat center / contain;
     transform: translateY(-50%);
     right: 0.625rem;
     /* 10px */
@@ -1699,7 +1699,7 @@ span.banner-text {
 .trouble {
     padding-top: 6.25rem;
     /* 100px */
-    background: url(http://localhost/wordpress/wp-content/uploads/2026/03/bg_trouble.png) no-repeat center / cover;
+    background: url(./img/bg_trouble.png) no-repeat center / cover;
     padding-bottom: 9.375rem;
     /* 150px */
 }
@@ -1741,12 +1741,12 @@ span.banner-text {
 .section-title-en::before {
     left: -1.5625rem;
     /* -25px */
-    background: url(assets/img/arrow_right.svg) no-repeat center / contain;
+    background: url(./img//arrow_right.svg) no-repeat center / contain;
 }
 
 .section-title-en::after {
     right: -1.5625rem;
-    background: url(assets/img/arrow_left.svg) no-repeat center / contain;
+    background: url(./img/arrow_left.svg) no-repeat center / contain;
 }
 
 .section-title-en::before,
@@ -1889,7 +1889,7 @@ span.banner-text {
     position: absolute;
     width: 1rem;
     height: 0.375rem;
-    background: url(assets/img/mui-ten.svg) no-repeat center / contain;
+    background: url(./img/mui-ten.svg) no-repeat center / contain;
     filter: brightness(0) invert(1);
     top: 2.1875rem;
     right: 1.8rem;
@@ -2069,7 +2069,7 @@ span.banner-text {
     position: relative;
     padding: 8.75rem 0;
     /* 140px */
-    background: url(assets/img/medical_bg.png);
+    background: url(./img/medical_bg.png);
     top: -4.6875rem;
     /* -75px */
 }
@@ -2251,7 +2251,7 @@ p.medical__item-sub.sub {
     width: 1.6875rem;
     /* 27px */
     height: 1.6875rem;
-    background: #fff url(assets/img/mui-ten.svg) no-repeat center;
+    background: #fff url(./img/mui-ten.svg) no-repeat center;
     background-size: 0.875rem;
     /* 14px */
     border-radius: 0.375rem;
@@ -2269,7 +2269,7 @@ p.medical__item-sub.sub {
 
 .medical__card-body:hover::before,
 .medical__item-content:hover::before {
-    background: #f0a500 url(assets/img/mui-ten.svg) no-repeat center;
+    background: #f0a500 url(./img/mui-ten.svg) no-repeat center;
     background-size: 0.875rem;
 }
 
@@ -2508,7 +2508,7 @@ p.medical__item-sub.sub {
     padding: 7.5rem 0;
     z-index: 1;
     background: linear-gradient(rgba(0, 102, 170, .85), rgba(0, 102, 170, .85)),
-        url(assets/img/bg_pickup.png) center/cover no-repeat;
+        url(./img/bg_pickup.png) center/cover no-repeat;
     clip-path: shape(from 48.23% 0%, curve to 49.53% 1.4% with 48.7% 0% / 49.16% 0.49%, line to 49.99% 2.54%, line to 50.01% 2.58%, line to 50.03% 2.54%, line to 50.49% 1.4%, curve to 51.79% 0% with 50.86% 0.49% / 51.32% 0%, hline to 100%, vline to 100%, hline to 0%, vline to 0%, hline to 48.23%, close);
 }
 
@@ -2697,7 +2697,7 @@ p.medical__item-sub.sub {
     pointer-events: none;
     z-index: -1;
 
-    background: url(http://localhost/wordpress/wp-content/uploads/2026/03/feature_bg_round.svg);
+    background: url(./img/feature_bg.png);
 
     clip-path: shape(from 48.23% 0%,
             curve to 49.53% 1.4% with 48.7% 0% / 49.16% 0.49%,
@@ -3035,7 +3035,7 @@ article.feature__panel.feature__panel--small.vs-04.img--zoomout.wow_custom {
     height: 100%;
     left: 0;
     top: 70px;
-    background: url(http://localhost/wordpress/wp-content/uploads/2026/04/message_bg.png) no-repeat top center / cover;
+    background: url(./img/message_bg.png) no-repeat top center / cover;
     z-index: -1;
 }
 
@@ -3045,7 +3045,7 @@ article.feature__panel.feature__panel--small.vs-04.img--zoomout.wow_custom {
 }
 
 .message__wrap {
-    background: url(http://localhost/wordpress/wp-content/uploads/2026/03/mess_wrap.png) no-repeat center / cover;
+    background: url(./img/mess_wrap.png) no-repeat center / cover;
     border-radius: 1.875rem;
 }
 
@@ -3139,7 +3139,7 @@ article.feature__panel.feature__panel--small.vs-04.img--zoomout.wow_custom {
     position: absolute;
     width: 0.625rem;
     height: 0.3125rem;
-    background: url(assets/img/mui-ten.svg) no-repeat center / contain;
+    background: url(./img/mui-ten.svg) no-repeat center / contain;
     transition: all .3s ease;
     display: block;
     transform: translateY(-50%);
@@ -3582,7 +3582,7 @@ a.message__btn.vs-02 {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: url(http://localhost/wordpress/wp-content/uploads/2026/03/icon-column.svg) no-repeat center / contain;
+    background: url(./img/icon-column.svg) no-repeat center / contain;
     z-index: 2;
 }
 
@@ -3717,7 +3717,7 @@ a.message__btn.vs-02 {
     padding-bottom: 5rem;
     margin-bottom: -1.875rem;
     padding-top: 7.5rem;
-    background: url(http://localhost/wordpress/wp-content/uploads/2026/03/bg_clinic.png);
+    background: url(./img/bg_clinic.png);
 }
 
 /* nền mờ phía sau */
@@ -3859,8 +3859,8 @@ table.clinic__table.wow_custom tr {
     position: absolute;
     width: 0.9375rem;
     height: 1.375rem;
-    -webkit-mask-image: url(http://localhost/wordpress/wp-content/uploads/2026/03/clinic_icon_btn.svg);
-    mask-image: url(http://localhost/wordpress/wp-content/uploads/2026/03/clinic_icon_btn.svg);
+    -webkit-mask-image: url(./img/clinic_icon_btn.svg);
+    mask-image: url(./img/clinic_icon_btn.svg);
 }
 
 .clinic__btn--secondary .clinic__btn-link::before {
@@ -3868,8 +3868,8 @@ table.clinic__table.wow_custom tr {
     position: absolute;
     width: 0.9375rem;
     height: 1.375rem;
-    -webkit-mask-image: url(http://localhost/wordpress/wp-content/uploads/2026/03/clinic_icon_btn_2.svg);
-    mask-image: url(http://localhost/wordpress/wp-content/uploads/2026/03/clinic_icon_btn_2.svg);
+    -webkit-mask-image: url(./img/clinic_icon_btn_2.svg);
+    mask-image: url(./img/clinic_icon_btn_2.svg);
 }
 
 .clinic__btn-link::before {
@@ -3889,8 +3889,8 @@ table.clinic__table.wow_custom tr {
     width: 1.0625rem;
     height: 0.3125rem;
     background-color: currentColor;
-    -webkit-mask: url(http://localhost/wordpress/wp-content/uploads/2026/03/mui-ten.svg) no-repeat center;
-    mask: url(http://localhost/wordpress/wp-content/uploads/2026/03/mui-ten.svg) no-repeat center;
+    -webkit-mask: url(./img/mui-ten.svg) no-repeat center;
+    mask: url(./img/mui-ten.svg) no-repeat center;
     -webkit-mask-size: contain;
     mask-size: contain;
     transition: all .3s ease;

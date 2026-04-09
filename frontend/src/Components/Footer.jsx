@@ -43,7 +43,7 @@ function Footer() {
                             <div className="footer__logo">
                                 <a href="#">
                                     <img
-                                        src="http://xs792656.xsrv.jp/sanuki/wp-content/uploads/2025/08/logo_footer.svg"
+                                        src="./img/logo_footer.svg"
                                         alt=""
                                     />
                                 </a>
@@ -114,7 +114,7 @@ function Footer() {
                         <div className="copyright-item logo">
                             <a href="https://medical-grits.jp/">
                                 <img
-                                    src="http://xs792656.xsrv.jp/sanuki/wp-content/uploads/2025/08/medical_grits.png"
+                                    src="./img/medical_grits.png"
                                     alt=""
                                 />
                             </a>
